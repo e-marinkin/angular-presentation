@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+table {
+    margin: auto;
+    width: 70% !important;
+}
+
+table>tbody>tr:hover{
+    background-color: #c2c2c2 !important; 
+}
+
+.row {
+    display: flex;
+    margin: auto !important;
+    width: 70%;
+}
+
+.col {
+    width: 100%;
+}
+
+.p-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.m-20{
+    margin: 20px;
+}
+
+table>tbody>tr>td{
+    vertical-align: 0 !important;
+}
+
+label {
+    font-weight: normal !important;
+    font-size: 16px;
+}
+
+.bg-primary {
+    background-color: #4f4f4f !important;
+}
